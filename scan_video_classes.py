@@ -64,7 +64,7 @@ def annotate_frame(frame_bgr, result, conf_threshold: float):
     return frame_bgr
 
 
-st.title("Fall Detection Demo (Roboflow + Streamlit)")
+st.title("Fall Detection  (Roboflow + Streamlit)")
 
 conf_threshold = st.slider("Confidence Threshold", 0.0, 1.0, 0.25, 0.05)
 option = st.radio("Choose input source:", ["Upload Video", "Webcam"])
