@@ -53,7 +53,7 @@ export ROBOFLOW_KEY="your_roboflow_api_key"
 streamlit run scan_video_classes.py
 
 The app will be available at
-http://localhost:8501
+https://fall-guard.streamlit.app/?
 
 Deployment Notes
 - The Roboflow API key must be stored as an environment variable or secret.
