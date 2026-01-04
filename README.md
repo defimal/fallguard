@@ -28,7 +28,7 @@ It performs **bounding-box localization** and **posture classification** using a
 ---
 
 ## Live Inference (Streamlit App)
-![Streamlit App Screenshot](assets/streamlit_ui.png)
+![Streamlit App Screenshot](assets/streamlit_ui1.png)
 
 ---
 
