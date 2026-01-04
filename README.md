@@ -4,7 +4,7 @@ FallGuard is an end-to-end computer vision system that detects whether a person 
 It performs **bounding-box localization** and **posture classification** using a custom-trained deep learning model built with TensorFlow.
 
 🎥 **Demo Video**  
-[Click to watch the FallGuard demo](assets/fallguard_demo.mp4)
+[![FallGuard Demo](assets/streamlit_ui.png)](assets/fallguard_demo.mp4)
 
 ---
 
