@@ -2,18 +2,18 @@
 
 FallGuard is an end-to-end computer vision system that detects whether a person is **standing or has fallen** from images or video. It performs **bounding-box localization** and **posture classification** using a custom-trained deep learning model built with TensorFlow.
 
-🎥 **Demo Video** [![FallGuard Demo](assets/thumb.png)](assets/fallguard_demo.mp4)
+ **Demo Video** [![FallGuard Demo](assets/thumb.png)](assets/fallguard_demo.mp4)
 
 ---
 
-## 🚀 Live Demo
+##  Live Demo
 🔗 Streamlit App: [https://fallguard-defi.streamlit.app](https://fallguard-defi.streamlit.app)
 
-> ⚠️ **Note:** The live demo runs on CPU-only infrastructure (Streamlit Community Cloud). Real-time inference may be slower than local GPU execution. A recorded demo video is provided above to showcase full performance.
+>  **Note:** The live demo runs on CPU-only infrastructure (Streamlit Community Cloud). Real-time inference may be slower than local GPU execution. A recorded demo video is provided above to showcase full performance.
 
 ---
 
-## ✨ Features
+## Features
 - **Real-time Detection:** High-accuracy fall vs. stand classification.
 - **Spatial Localization:** Bounding-box detection of the subject.
 - **Multi-Modal Input:** Supports webcam capture, image uploads, and MP4 video files.
@@ -21,12 +21,12 @@ FallGuard is an end-to-end computer vision system that detects whether a person 
 
 ---
 
-## 🖼️ Live Inference (Streamlit App)
+## Live Inference (Streamlit App)
 ![Streamlit App Screenshot](assets/streamlit_ui1.png)
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 - **Backbone:** MobileNetV2 (pretrained on ImageNet).
 - **Dual-Output Heads:** - **Bounding-box regression:** Predicts spatial coordinates ($x_{min}, y_{min}, x_{max}, y_{max}$).
   - **Binary classification:** Predicts posture state (Fall / Stand).
@@ -38,7 +38,7 @@ The model was trained on a dataset of **~7,000 annotated images** with custom pr
 
 ---
 
-## 📊 Training & Performance
+## Training & Performance
 - **Custom Pipeline:** Data pipeline featuring bounding-box normalization.
 - **Optimization:** Joint optimization of localization (Regression) and classification losses.
 - **Accuracy:** Achieved **~99% classification accuracy** with reliable spatial localization.
@@ -50,7 +50,7 @@ As shown in the `training_metrics.png`, the **Training Loss** (blue line) demons
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - **Language:** Python
 - **DL Framework:** TensorFlow (tf.keras)
 - **Computer Vision:** OpenCV
@@ -59,7 +59,7 @@ As shown in the `training_metrics.png`, the **Training Loss** (blue line) demons
 
 ---
 
-## 🏗 Running Locally
+## Running Locally
 
 ### 1. Install dependencies
 ```bash
