@@ -9,7 +9,7 @@ It performs **bounding-box localization** and **posture classification** using a
 ---
 
 ## Live Demo
-🔗 Streamlit App: https://YOUR-APP-NAME.streamlit.app
+🔗 Streamlit App: https://fallguard-defi.streamlit.app
 
 > ⚠️ Note: The live demo runs on CPU-only infrastructure (Streamlit Community Cloud).  
 > Real-time inference may be slower than local GPU execution.  
