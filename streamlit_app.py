@@ -9,6 +9,12 @@ CLASS_NAMES = ["fall", "stand"]
 
 st.set_page_config(page_title="FallGuard", layout="centered")
 st.title("FallGuard — Fall Detection System")
+st.info(
+    "⚠️ Live demo runs on CPU (Streamlit Community Cloud). "
+    "Video inference may be slower than local GPU execution. "
+    "See demo video for full-speed performance."
+)
+
 
 @st.cache_resource
 def load_model():
