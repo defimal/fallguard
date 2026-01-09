@@ -41,7 +41,7 @@ The model was trained on a dataset of **~7,000 annotated images** with custom pr
 ## Training & Performance
 - **Custom Pipeline:** Data pipeline featuring bounding-box normalization.
 - **Optimization:** Joint optimization of localization (Regression) and classification losses.
-- **Accuracy:** Achieved **~99% classification accuracy** with reliable spatial localization.
+- **Accuracy:** Achieved **~91% classification accuracy** with reliable spatial localization.
 
 ![Training Metrics](assets/training_metrics.png)
 
